@@ -1,8 +1,69 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
 }
-h1 {
-    color: #333;
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    margin: 5px;
+    border-radius: 5px;
+    width: 220px;
+    position: center;
+}
+
+li:hover {
+    background-color: #ddd;
+}
+
+#dogInfo {
+    margin-top: 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#dogInfo {
+    display: block; 
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+#dogInfo img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#dogDetails {
+    text-align: left;
 }
