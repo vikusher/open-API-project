@@ -66,6 +66,6 @@ async function fetchBreedDetails(breed, listItem) {
             </div>
         </div>
     `;
-
+}
 // Attach event listener to button
 document.getElementById("loadBreedsBtn").addEventListener("click", fetchBreeds);
