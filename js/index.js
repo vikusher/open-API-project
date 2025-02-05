@@ -67,9 +67,5 @@ async function fetchBreedDetails(breed, listItem) {
         </div>
     `;
 
-    // Debugging: Check if listItem is updated
-    console.log("Updated listItem:", listItem.innerHTML);
-}
-
 // Attach event listener to button
 document.getElementById("loadBreedsBtn").addEventListener("click", fetchBreeds);
